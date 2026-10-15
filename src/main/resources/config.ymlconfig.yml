@@ -1,0 +1,10 @@
+# Borsa yenilenme süresi (Saniye cinsinden)
+yenilenme-suresi: 300
+
+# Dinamik fiyat çarpan sınırları (Rastgele bu aralıkta çarpan belirlenir)
+fiyat-carpan-min: 0.8
+fiyat-carpan-max: 1.5
+
+# Miktar çarpan sınırları
+miktar-carpan-min: 0.5
+miktar-carpan-max: 2.0
