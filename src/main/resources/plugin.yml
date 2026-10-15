@@ -1,0 +1,27 @@
+name: BorsaTicaret
+version: 1.0
+main: me.furkan.ticareteklenti.Main
+api-version: 1.21
+depend: [Vault]
+commands:
+  ticaretköylüsü:
+    description: Ticaret köylüsü koyar.
+    permission: borsaticaret.admin
+  madenciköylü:
+    description: Köylüyü madenci yapar.
+    permission: borsaticaret.admin
+  oduncuköylü:
+    description: Köylüyü oduncu yapar.
+    permission: borsaticaret.admin
+  eşyacıköylü:
+    description: Köylüyü eşyacı yapar.
+    permission: borsaticaret.admin
+  büyücüköylü:
+    description: Köylüyü büyücü yapar.
+    permission: borsaticaret.admin
+  çiftçiköylü:
+    description: Köylüyü çiftçi yapar.
+    permission: borsaticaret.admin
+  blokcuköylü:
+    description: Köylüyü blokçu yapar.
+    permission: borsaticaret.admin
