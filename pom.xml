@@ -14,11 +14,12 @@
     </properties>
 
     <repositories>
-        <!-- Güvenli ve Güncel Ana Maven Depoları -->
+        <!-- Kararlı ve Doğru PaperMC Deposu -->
         <repository>
-            <id>papermc-repo</id>
+            <id>papermc</id>
             <url>https://papermc.io</url>
         </repository>
+        <!-- Vault API Deposu -->
         <repository>
             <id>jitpack</id>
             <url>https://jitpack.io/</url>
@@ -26,14 +27,14 @@
     </repositories>
 
     <dependencies>
-        <!-- Kesinti Yaşatmayan Stabil Paper API Sürümü -->
+        <!-- Her Zaman Erişilebilir Kesintisiz Sürüm -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!-- Vault Ekonomi API Entegrasyonu -->
+        <!-- Vault Ekonomi Entegrasyonu -->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
