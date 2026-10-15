@@ -2,7 +2,7 @@ name: Yapay Zeka Eklenti Derleyici
 
 on:
   push:
-    branches: [ "ana" ]
+    branches: [ "main" ]
 
 jobs:
   build:
