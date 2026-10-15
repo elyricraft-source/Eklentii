@@ -1,0 +1,29 @@
+<settings xmlns="http://apache.org"
+          xmlns:xsi="http://w3.org"
+          xsi:schemaLocation="http://apache.org http://apache.org">
+    <profiles>
+        <profile>
+            <id>merkez-havuz</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://apache.org</url>
+                    <snapshots><enabled>false</enabled></snapshots>
+                </repository>
+                <repository>
+                    <id>papermc-repo</id>
+                    <url>https://repo.papermc.io/repository/maven-public/</url>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </repository>
+                <repository>
+                    <id>jitpack</id>
+                    <url>https://jitpack.io</url>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>merkez-havuz</activeProfile>
+    </activeProfiles>
+</settings>
