@@ -1,0 +1,27 @@
+name: Yapay Zeka Eklenti Derleyici
+
+on:
+  push:
+    branches: [ "ana" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Java JDK 21 Kurulumu
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+        
+    - name: Eklentiyi Otomatik Paketle (.JAR Yap)
+      run: mvn -B package --file pom.xml
+
+    - name: Hazır .JAR Dosyasını Teslim Et
+      uses: actions/upload-artifact@v4
+      with:
+        name: Yapay-Zeka-Eklentisi
+        path: target/*.jar
