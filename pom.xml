@@ -1,10 +1,10 @@
-<project xmlns="http://msu.edu"
+<project xmlns="http://apache.org"
          xmlns:xsi="http://w3.org"
          xsi:schemaLocation="http://apache.org http://apache.org">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.furkan</groupId>
-    <artifactId>elyriplugin</artifactId>
+    <artifactId>ticareteklenti</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -14,9 +14,14 @@
     </properties>
 
     <repositories>
+        <!-- Güncel PaperMC Kütüphane Adresi -->
         <repository>
             <id>papermc</id>
             <url>https://papermc.io</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -25,6 +30,12 @@
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.21.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.MilkBowl</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>1.7.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
