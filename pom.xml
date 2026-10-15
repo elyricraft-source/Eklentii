@@ -14,24 +14,24 @@
     </properties>
 
     <repositories>
-        <!-- Kararlı ve Doğru PaperMC Deposu -->
+        <!-- İsmi Çakışmayan Doğru PaperMC Deposu -->
         <repository>
-            <id>papermc</id>
+            <id>papermc-repo-temiz</id>
             <url>https://papermc.io</url>
         </repository>
-        <!-- Vault API Deposu -->
+        <!-- Güvenli JitPack Deposu -->
         <repository>
-            <id>jitpack</id>
+            <id>jitpack-repo</id>
             <url>https://jitpack.io/</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <!-- Her Zaman Erişilebilir Kesintisiz Sürüm -->
+        <!-- Hata Vermeyen En Kararlı Sürüm Havuzu -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!-- Vault Ekonomi Entegrasyonu -->
