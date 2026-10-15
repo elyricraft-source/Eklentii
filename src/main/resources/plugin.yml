@@ -1,0 +1,7 @@
+name: SunucuHediye
+version: 1.0
+main: me.furkan.eklenti.AnaKomut
+api-version: 1.21
+commands:
+  hediye:
+    description: Oyunculara hediye elmas verir.
